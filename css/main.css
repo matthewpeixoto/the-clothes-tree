@@ -86,7 +86,7 @@ nav a {
 
 nav a:hover,
 h1:hover {
-  color: #bfa69a;
+  color: #bea69b;
 }
 
 .nav-icon,
@@ -160,15 +160,34 @@ h1:hover {
   position: absolute;
   transform: translateX(-50%);
   left: 50%;
-  top: 5em;
+  top: 3em;
   color: #fff;
   width: 90%;
+  text-shadow: 0 0 25px black;
 }
 
 .title {
+  margin: 0;
   font-weight: 300;
-  font-size: 2.2rem;
-  text-shadow: 0 0 50px black;
+  font-size: 2.4rem;
+}
+
+p {
+  margin: .1em 0 .7em;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #bea69b;;
+  padding: .3em .7em;
+  font-size: 1.125rem;
+  text-shadow: none;
+}
+
+.btn:hover {
+  background-color: #d1beb6;;
 }
 
 /* banner */
