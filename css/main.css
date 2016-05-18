@@ -181,13 +181,13 @@ p {
 .btn {
   display: inline-block;
   background-color: #bea69b;;
-  padding: .3em .7em;
+  padding: .4em .7em;
   font-size: 1.125rem;
   text-shadow: none;
 }
 
 .btn:hover {
-  background-color: #d1beb6;;
+  background-color: #d1beb6;
 }
 
 /* banner */
@@ -226,6 +226,28 @@ p {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.hours-wrapper {
+  text-align: center;
+  clear: both;
+  padding: 25px;
+}
+
+.hours {
+  text-decoration: none;
+  color: #533f34;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.hours:hover {
+  border-bottom: 1px solid #533f34;
+}
+
+footer {
+  height: 15em;
+  background-color: #f2f2f2;
 }
 
 @media only screen and (min-width: 46em) {
@@ -280,7 +302,7 @@ p {
   }
 
   .banner {
-    height: 65vh;
+    height: 64vh;
     min-height: 535px;
     max-height: 100%;
   }
