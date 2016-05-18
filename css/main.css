@@ -33,10 +33,10 @@ header {
 
 h1 {
   margin: 0;
-  padding: .875em;
-  font-size: 1rem;
+  padding: .625em;
+  font-size: 1.2rem;
   font-weight: 400;
-  color: #bfa69a;
+  color: #fff;
   display: inline-block;
   text-align: center;
   font-family: Lora, serif;
@@ -62,6 +62,10 @@ h1 {
   cursor: pointer;
 }
 
+.logo-span {
+  display: inline-block;
+}
+
 nav ul {
   margin: 0;
   padding: 0;
@@ -80,7 +84,8 @@ nav a {
   border-bottom: solid 1px #533f34;
 }
 
-nav a:hover {
+nav a:hover,
+h1:hover {
   color: #bfa69a;
 }
 
@@ -215,9 +220,8 @@ nav a:hover {
     text-align: center;
   }
 
-  h1 {
-    padding: .7em 0 0;
-    font-size: 1.4rem;
+  .logo-span {
+    display: block;
   }
 
   .nav-check, .nav-icon, .nav-icon-hover, .nav-icon-close, .nav-icon-close-hover {
@@ -230,9 +234,10 @@ nav a:hover {
   }
 
   .nav {
-    display: block;
+    display: inline-block;
     padding: 0;
-    padding-bottom: .7em;
+    border-top: solid 1px #533f34;
+    width: auto;
   }
 
   nav ul {
@@ -241,10 +246,11 @@ nav a:hover {
 
   nav li {
     display: inline-block;
+    margin: 0 1em;
   }
 
   nav a {
-    margin: 0 1em;
+    padding: .9em;
     border: none;
     font-size: .7rem;
     font-weight: 400;
